@@ -6,35 +6,125 @@
     <title>My Home Page</title>
 
     <style>
-         button {
-            border: 10px;
-            background-color: rgb(221, 219, 206);
-            border-radius: 5px;
-            margin: 5px 10px;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header, .footer {
+            background-color: rgb(138, 150, 161);
+            text-align: center;
+            padding: 20px 0;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .resume-item, .work-item, .skill-item {
+            margin-bottom: 15px;
+        }
+        .contact-info {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+        .header p{
+            font-size: 30px;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
 
-    <img src="AI generated Desktop Wallpaper.jpg" alt="Desktop Wallpaper" width="300" height="300">
+    </header>
+    
+    <div class="header">
+        <h1>Odeyemi Joshua Momooreoluwa</h1>
+        <p>Software Developer</p>
+                <!--Go to Aboutus Page-->
+                <button>
+                    <a href="aboutus.html">ABOUT US</a>
+                </button></br>
+                </br>
+                        <!--Go to contact us page-->
+                   <button> <a href="contactus.html">CONTACT US</a>
+                </button></br>
+                </br>
+                    <!--Back to Landing Page-->
+                   <button aria-busy="true"> <a href="Landingpage.html">BACK</a></button>
+    </div>
 
-    <p>I am a Web Developer with a pass for creating amzing Webiste. I have
-        experience in HTML, CSS, and JavaScript.
-    </p>
-    <p>
-        Let try this Maybe it will work out
-    </p>
-    <!--Go to Aboutus Page-->
-    <button>
-    <a href="aboutus.html">ABOUT US</a>
-</button></br>
-</br>
-        <!--Go to contact us page-->
-   <button> <a href="contactus.html">CONTACT US</a>
-</button></br>
-</br>
-    <!--Back to Landing Page-->
-   <button aria-busy="true"> <a href="Landingpage.html">BACK</a></button>
+    <div class="container">
+        <div class="section" id="about">
+            <h2>About Me</h2>
+            <p>Hello, I'm Odeyemi Joshua, a Nigerian tech enthusiast, where code meets art.
+                As a Software Developer and Graphics Designer, I bring innovation ideas to life through logic-driven solutions and captivating visuals.
+            With a passion for growth, confidence in my abilities and a flair for merging technology and design, I'm always ready to take on the next challange and carft solutions tht inspire and delight </p>
+        </div>
+
+        <div class="section" id="resume">
+            <h2>Resume</h2>
+            <div class="resume-item">
+                <h3>Education</h3>
+                <p>I'm a student of Jpts.</p>
+            </div>
+            <div class="resume-item">
+                <h3>Work Experience</h3>
+                <p>Freelanchers.</p>
+            </div>
+            <div class="resume-item">
+                <h3>Certifications</h3>
+                <p>HTML, CSS e.t.c.</p>
+            </div>
+        </div>
+
+        <div class="section" id="work">
+            <h2>Work Samples</h2>
+            <div class="work-item">
+                <h3>Project 1</h3>
+                <p>Description of project 1.</p>
+                <a href="file:///C:/Users/DELL/Desktop/Nathy%20wuld%20Website/texting.html#">Link to project 1</a>
+            </div>
+            <div class="work-item">
+                <h3>Project 2</h3>
+                <p>Description of project 2.</p>
+                <a href="file:///C:/Users/DELL/Desktop/Nathy%20wuld%20Website/texting.html#">Link to project 2</a>
+            </div>
+        </div>
+
+        <div class="section" id="skills">
+            <h2>Skills</h2>
+            <div class="skill-item">
+                <p>Technical Skills: Druming, electrician e.t.c.</p>
+            </div>
+            <div class="skill-item">
+                <p>Soft Skills: Microsoft office Package, Software Development.</p>
+            </div>
+        </div>
+
+        <div class="section" id="contact">
+            <h2>Contact Information</h2>
+            <ul class="contact-info">
+                <li>Email: your.email@example.com</li>
+                <li>Phone: 123-456-7890</li>
+                <li>LinkedIn: <a href="file:///C:/Users/DELL/Desktop/Nathy%20wuld%20Website/texting.html#">Your LinkedIn Profile</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+    <div class="footer">
+        <p>© 2024 Odeyemi Joshua Momooreoluwa</p>
+    </div>
 </body>
 </html>
